@@ -1,0 +1,135 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    background-color: black;
+    grid-template-rows: 7fr 1fr;
+    grid-row-gap: 1vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    background-color: #2E4057;;
+}
+
+
+.body {
+    background-color: #EEEEEE;
+}
+
+.body-grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr;
+    grid-template-areas: "picture about" "picture about" "contact about";
+}
+
+.picture {
+    display: inline-grid;
+    grid-area: picture;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    overflow: hidden;
+}
+
+.about {
+    display: inline;
+    grid-area: about;
+    background-color: #EEEEEE;
+    justify-content: center;
+    align-content: center;
+    padding: 4vw;
+}
+
+a {
+    color: black;
+}
+
+
+.contact {
+    display: inline-grid;
+    grid-area: contact;
+    background-color: #DDDDDD;
+    justify-content: center;
+    align-content: center;
+    padding: 2vw;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    color: whitesmoke;
+}
+
+.fab {
+    padding: 1vw;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.fab:hover {
+    opacity: 1;
+}
+
+.fas:hover {
+    opacity: 1;
+}
+
+.fa-linkedin-in {
+    color: white;
+    background-color: #0077B5;
+}
+
+.fa-github {
+    color: white;
+    background-color: #333333;
+}
+
+.fa-medium {
+    color: white;
+    background-color: #3CB371;
+}
+
+.fa-stack-overflow {
+    color: white;
+    background-color: #FF9900;
+}
+
+.fa-file {
+    color: white;
+    background-color: #C92228;
+    padding: 1vw;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    opacity: 0.8;
+}
